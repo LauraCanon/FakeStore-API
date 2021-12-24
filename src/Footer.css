@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+.container {
+  background-color: rgb(142, 161, 161);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.copy {
+  background-color: rgb(142, 161, 161);
+  font-family: "Montserrat", sans-serif;
+}
+
+.cont-foot {
+  background-color: rgb(142, 161, 161)
+}
+
+.copy a{
+  background-color: rgb(142, 161, 161);
+  color: black;
+  transition: all 0.4s ease 0s;
+  text-decoration: none;
+  color: rgb(66, 20, 109);
+}
+
+.copy a:hover{
+  color: rgb(213, 218, 218);
+}
