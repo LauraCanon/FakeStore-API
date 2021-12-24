@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+
+.btn-land{
+  background-color: rgb(97, 117, 97);
+  color: azure;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 15px 30px;
+  font-size: 20px;
+  text-align: center;
+  list-style: none;
+}
+
+.btn-land:hover {
+  background-color:rgb(213, 218, 218);
+  color: rgb(97, 117, 97);
+}
+
+.img-land {
+  width: 40%;
+  margin-left: 5%;
+  margin-top: 5%;
+  border-radius: 10px;
+  box-shadow: 6px 4px 5px rgb(117, 141, 117);
+}
+
+.title-land{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 55px;
+  padding: 15px;
+  margin-bottom: 5px;
+  text-decoration: underline;
+  color: rgb(97, 117, 97);
+}
+
+.container-land{
+  display: flex;
+  width: 100%;
+}
+
+.btn-container{
+  display: flex;
+  margin-top: 10%;
+  margin-left: 2%;
+  margin-right: 2%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.link-land{
+  background-color:rgb(222, 233, 231);
+}
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px) {
+
+    .container-land{
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+    }
+    .img-land {
+      width: 90%;
+      margin-right: auto;
+      margin-top: 15%;
+      border-radius: 10px;
+      box-shadow: 6px 4px 5px rgb(117, 141, 117);
+    } 
+    .btn-land{
+      background-color: rgb(97, 117, 97);
+      color: azure;
+      border-radius: 5px;
+      padding: 10px 30px;
+      list-style: none;
+    }
+    .btn-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .title-land{
+      font-size: 45px;
+      padding: 10px;
+      margin-bottom: 5%;
+      text-decoration: underline;
+      color: rgb(97, 117, 97);
+    }
+}
